@@ -14,8 +14,8 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
 
-    // Menunda Sebanyak 3 Detik
-    Future.delayed(const Duration(seconds: 3), () {
+    // Menunda Sebanyak ... Detik
+    Future.delayed(const Duration(seconds: 5), () {
       Navigator.pushReplacement(context,
           MaterialPageRoute(builder: (context) => const LandingPage()));
     });
@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   height: 300,
                 ),
                 Text(
-                  'ASLABTIF',
+                  'BAGUS',
                   style: TextStyle(
                       fontSize: 40,
                       fontWeight: FontWeight.bold,

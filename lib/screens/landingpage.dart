@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wisata_mobile_5/materimodulscreens/mystatelesswidget.dart';
 import 'package:wisata_mobile_5/models/landing_model.dart';
+import 'package:wisata_mobile_5/screens/homescreen.dart';
 import 'package:wisata_mobile_5/utils/const.dart';
 
 class LandingPage extends StatefulWidget {
@@ -115,7 +116,7 @@ class _LandingPageState extends State<LandingPage> {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => Mystatelesswidget(),
+                                  builder: (context) => HomeScreen(),
                                 ),
                               );
                             },
