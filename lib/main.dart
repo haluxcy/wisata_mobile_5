@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wisata_mobile_5/materimodulscreens/makananapiscreen9.dart';
 import 'package:wisata_mobile_5/screens/homescreen.dart';
 import 'package:wisata_mobile_5/screens/splashscreen.dart';
 
@@ -13,7 +14,7 @@ class TravelApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: MakananAPIScreen9(),
     );
   }
 }
